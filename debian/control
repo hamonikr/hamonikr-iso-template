@@ -1,0 +1,17 @@
+Source: hamonikr-iso-template
+Section: admin
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: hamonikr-iso-template
+Architecture: all
+Depends:
+Replaces: 
+Description: HamoniKR ISO Template
+ ISO Template for create Snapshot ISO file.
+ .
+ 시스템 스냅샷 ISO를 제작하기 위한 템플릿.
+
+

@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    configure)
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        cp /usr/share/hamonikr-iso-template/initrd-release /etc
+
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
